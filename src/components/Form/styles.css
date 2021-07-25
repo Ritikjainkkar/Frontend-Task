@@ -17,13 +17,13 @@
 	margin: 0 10%;
 	position: relative;
 }
-.fs-title {
+.fsTitle {
 	font-size: 1.3rem;
 	text-transform: uppercase;
 	color: #2C3E50;
 	margin-bottom: 10px;
 }
-.fs-subtitle {
+.fsSubtitle {
 	font-weight: normal;
 	font-size: 13px;
 	color: #666;
@@ -42,7 +42,7 @@ input, textarea {
 	font-size: 13px;
 }
 /*buttons*/
-.action-button {
+.actionButton {
 	width: 100px;
 	background: #27AE60;
 	font-weight: bold;

@@ -12,9 +12,8 @@
 }
 
 .cards__item {
-  display: flex;
   padding: 1rem;
-  width: 50%;
+  width: 45%;
 }
 
 .card {
@@ -31,17 +30,20 @@
   flex-direction: column;
   padding: 1rem;
 }
-.card__title {
+.card__title , .card__sub__title {
   color: #696969;
-  font-size: 1.25rem;
-  font-weight: 300;
+  font-size: 1.5rem;
+  font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+.card__sub__title {
+  font-size: 1.25rem;
 }
 
 .card__text {
   flex: 1 1 auto;
-  font-size: 0.875rem;
+  font-size: 1rem;
   line-height: 1.5;
   margin-bottom: 1.25rem;
 }

@@ -3,7 +3,9 @@ import './styles.css'
 
 const Post = () => {
   return (
-  <React.Fragment> 
+  <React.Fragment>
+     <ul className="cards" >
+      </ul>
   </React.Fragment>
   );
 }

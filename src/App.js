@@ -5,6 +5,7 @@ import Posts from './components/Posts/Posts'
 import Form from './components/Form/Form'
 
 function App() {
+  // rebase concept
   return (
     <Provider store={store}>
     <div className="root">

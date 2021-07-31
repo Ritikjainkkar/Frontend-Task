@@ -5,6 +5,7 @@ import Posts from './components/Posts/Posts'
 import Form from './components/Form/Form'
 
 function App() {
+  // it's master place
   return (
     <Provider store={store}>
     <div className="root">
